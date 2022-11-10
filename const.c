@@ -2,6 +2,9 @@
 
 int main()
 {
-	printf("Hello World\t\n");
+	const int newValue = 100;
+	
+	newValue = 3;
+	
 	return 0;
 }
