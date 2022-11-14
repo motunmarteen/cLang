@@ -7,6 +7,6 @@ int main()
 	scanf("%c", &letters);
 
 	for(letters; letters <= 'z'; letters++)
-		printf("%c\n\t", letters);
+		printf("%c\t\n", letters);
 	return 0;
 }
